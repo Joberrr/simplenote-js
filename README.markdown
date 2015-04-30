@@ -6,7 +6,6 @@ A JS wrapper for the SimpleNote API.  Routes all requests through
 [YQL](http://developer.yahoo.com/yql/) (via HTTPS) using the included
 Open Data table (see `src/` folder).  Needs jQuery.
 
-
 ## Regarding YQL
 
 All requests to the SimpleNote API are routed through YQL via HTTPS since 
@@ -20,7 +19,6 @@ unaffected by changes to the table that might occur during future development
 and which may break functionality in case of a version mismatch between the
 JS library you're using and the table file in this here GitHub repository.
 (See `SimpleNote`'s `setOpenDataTable()` method for that.)
-
 
 ## Usage
 
